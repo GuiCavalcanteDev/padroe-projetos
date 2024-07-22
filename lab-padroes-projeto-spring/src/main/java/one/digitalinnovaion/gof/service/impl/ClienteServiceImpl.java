@@ -21,7 +21,7 @@ public class ClienteServiceImpl implements IClienteService {
     IEnderecoRepository enderecoRepository;
 
     @Autowired
-    private IViaCepService viaCepService
+    private IViaCepService viaCepService;
 
     @Override
     public List<ClienteModel> getAll() {
